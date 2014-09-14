@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassErrorCollection</name>
+    </assembly>
+    <members>
+        <member name="M:ClassErrorCollection.ErrorCollection.#ctor(System.String)">
+            <summary>
+            set the error message 
+            </summary>
+            <param name="pStrErrorMessage"></param>
+        </member>
+        <member name="M:ClassErrorCollection.ErrorCollection.errorLog">
+            <summary>
+            open the error log 
+            </summary>
+        </member>
+        <member name="M:ClassErrorCollection.ErrorCollection.writeToFile">
+            <summary>
+            write to the file using the file writer class
+            </summary>
+        </member>
+        <member name="M:ClassErrorCollection.ErrorCollection.createFile">
+            <summary>
+            create the file using the file writer class
+            </summary>
+        </member>
+        <member name="M:ClassErrorCollection.ErrorCollection.BuildErrorMessage">
+            <summary>
+            build the error message
+            </summary>
+            <returns>the strTemp so it can be used in the write message method</returns>
+        </member>
+    </members>
+</doc>

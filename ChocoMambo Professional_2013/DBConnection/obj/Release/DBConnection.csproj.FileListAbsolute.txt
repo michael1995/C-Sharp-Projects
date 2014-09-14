@@ -1,0 +1,16 @@
+D:\ICAPRG527A\ChocoMambo_2013\DBConnection\bin\Release\DBConnection.dll
+D:\ICAPRG527A\ChocoMambo_2013\DBConnection\bin\Release\DBConnection.pdb
+D:\ICAPRG527A\ChocoMambo_2013\DBConnection\obj\Release\DBConnection.dll
+D:\ICAPRG527A\ChocoMambo_2013\DBConnection\obj\Release\DBConnection.pdb
+D:\ICAPRG527A\ChocoMambo\DBConnection\bin\Release\DBConnection.dll
+D:\ICAPRG527A\ChocoMambo\DBConnection\bin\Release\DBConnection.pdb
+D:\ICAPRG527A\ChocoMambo\DBConnection\obj\Release\DBConnection.dll
+D:\ICAPRG527A\ChocoMambo\DBConnection\obj\Release\DBConnection.pdb
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\DBConnection\bin\Release\DBConnection.dll
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\DBConnection\bin\Release\DBConnection.pdb
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\DBConnection\obj\Release\DBConnection.dll
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\DBConnection\obj\Release\DBConnection.pdb
+D:\ChocoMambo Professional\ChocoMambo Professional\DBConnection\bin\Release\DBConnection.dll
+D:\ChocoMambo Professional\ChocoMambo Professional\DBConnection\bin\Release\DBConnection.pdb
+D:\ChocoMambo Professional\ChocoMambo Professional\DBConnection\obj\Release\DBConnection.dll
+D:\ChocoMambo Professional\ChocoMambo Professional\DBConnection\obj\Release\DBConnection.pdb

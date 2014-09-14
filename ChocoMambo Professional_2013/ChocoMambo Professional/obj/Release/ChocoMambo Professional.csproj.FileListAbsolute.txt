@@ -1,0 +1,52 @@
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\bin\Release\ChocoMambo Professional.exe.config
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\bin\Release\ChocoMambo Professional.exe
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\bin\Release\ChocoMambo Professional.pdb
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\bin\Release\ClassErrorCollection.dll
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\bin\Release\DBConnection.dll
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\bin\Release\ClassErrorCollection.pdb
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\bin\Release\DBConnection.pdb
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo Professional.csprojResolveAssemblyReference.cache
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmBranch.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmCustomer.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmEmployee.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmLogin.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmOrder.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmParent.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmPermissions.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmProduct.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmRawIngredients.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmSupplier.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmSupplierPurchase.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmView.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.Properties.Resources.resources
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo Professional.csproj.GenerateResource.Cache
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo Professional.exe
+D:\ChocoMambo Professional\ChocoMambo Professional\ChocoMambo Professional\obj\Release\ChocoMambo Professional.pdb
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\bin\Release\ChocoMambo Professional.exe.config
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo Professional.exe
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo Professional.pdb
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\bin\Release\ChocoMambo Professional.exe.manifest
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\bin\Release\ChocoMambo Professional.application
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\bin\Release\ChocoMambo Professional.exe
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\bin\Release\ChocoMambo Professional.pdb
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\bin\Release\ClassErrorCollection.dll
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\bin\Release\DBConnection.dll
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\bin\Release\ClassErrorCollection.pdb
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\bin\Release\DBConnection.pdb
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo Professional.csprojResolveAssemblyReference.cache
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmBranch.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmCustomer.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmEmployee.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmLogin.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmOrder.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmParent.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmPermissions.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmProduct.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmRawIngredients.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmSupplier.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmSupplierPurchase.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.FrmView.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo_Professional.Properties.Resources.resources
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo Professional.csproj.GenerateResource.Cache
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo Professional.exe.manifest
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo Professional_2013\ChocoMambo Professional\obj\Release\ChocoMambo Professional.application

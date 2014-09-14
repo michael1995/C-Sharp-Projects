@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DBConnection</name>
+    </assembly>
+    <members>
+        <member name="M:DBConnection.dbConnection.#ctor(System.String)">
+            <summary>
+            Pre - Condition: The database file specified in the paremeter exists
+            Post - Condition: The connection to the database will be established
+            Description: The class constructor that will be specified by the paremeter.
+            </summary>
+            <param name="pStrDBFile"> The database file will be used by this connection  </param> 
+        </member>
+        <member name="M:DBConnection.dbConnection.GetDataTable(System.String,System.String)">
+            <summary>
+            Pre Condition: The string paremeters will be in the order of the SQL query, and the table name
+            Post: Condition: The post condition specified in the SQL query will be loaded in the table.
+            Description: This method will return a data table loaded with records specified in the SQL query for display purposes 
+            </summary>
+            <param name="pStrQuery"> The SQL query that will select the records to be loaded </param>
+            <param name="pStrTableName"> The table name used by the query </param>
+            <returns></returns>
+        </member>
+        <member name="M:DBConnection.dbConnection.GetDataTable(System.String)">
+            <summary>
+            Pre Condition: The string paremeters will be the table name
+            Post: Condition: The post condition specified in the table will be loaded in the table.
+            Description: This method will return a data table loaded with records from the table
+            </summary>
+            <param name="pStrTableName"> The table name used by the query </param>
+            <returns></returns>
+        </member>
+        <member name="M:DBConnection.dbConnection.SaveData(System.Data.DataSet,System.String)">
+            <summary>
+            Pre Condition: The paremeters will be in order of passing the dataset and the string table name
+            Post Condition: The update dataset will be persisted in the data base
+            Description: This method will update the database based on the update
+            </summary>
+            <param name="pDataSet"> The dataset that contains the updated records</param>
+            <param name="pStrTableName"> The table name will be updated in the database </param>
+        </member>
+        <member name="M:DBConnection.dbConnection.onRowUpdated(System.Object,System.Data.OleDb.OleDbRowUpdatedEventArgs)">
+            <summary>
+            pre-condition: The frist column in the query is the autonumber field
+            post-condition: Child will be perssisted in the database consistent with the primary key of the parent record
+            description:    this method will synchronize the primary and foriegn key togehter 
+            </summary>
+            <param name="sender"></param>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>

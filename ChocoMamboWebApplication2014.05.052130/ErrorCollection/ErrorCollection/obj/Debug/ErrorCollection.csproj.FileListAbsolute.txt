@@ -1,0 +1,16 @@
+C:\Users\Robert\Dropbox\ErrorCollection\ErrorCollection\bin\Debug\ErrorCollection.dll
+C:\Users\Robert\Dropbox\ErrorCollection\ErrorCollection\bin\Debug\ErrorCollection.pdb
+C:\Users\Robert\Dropbox\ErrorCollection\ErrorCollection\obj\Debug\ErrorCollection.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Dropbox\ErrorCollection\ErrorCollection\obj\Debug\ErrorCollection.dll
+C:\Users\Robert\Dropbox\ErrorCollection\ErrorCollection\obj\Debug\ErrorCollection.pdb
+C:\Users\Robert\Dropbox\ChocoMambo\ErrorCollection\ErrorCollection\bin\Debug\ErrorCollection.dll
+C:\Users\Robert\Dropbox\ChocoMambo\ErrorCollection\ErrorCollection\bin\Debug\ErrorCollection.pdb
+C:\Users\Robert\Dropbox\ChocoMambo\ErrorCollection\ErrorCollection\bin\Debug\ErrorCollection.dll.CodeAnalysisLog.xml
+C:\Users\Robert\Dropbox\ChocoMambo\ErrorCollection\ErrorCollection\bin\Debug\ErrorCollection.dll.lastcodeanalysissucceeded
+C:\Users\Robert\Dropbox\ChocoMambo\ErrorCollection\ErrorCollection\obj\Debug\ErrorCollection.dll
+C:\Users\Robert\Dropbox\ChocoMambo\ErrorCollection\ErrorCollection\obj\Debug\ErrorCollection.pdb
+C:\Users\Robert\Dropbox\OOP2_RobertKelly\ICAPRG527A\ChocoMambo\ErrorCollection\ErrorCollection\bin\Debug\ErrorCollection.dll
+C:\Users\Robert\Dropbox\OOP2_RobertKelly\ICAPRG527A\ChocoMambo\ErrorCollection\ErrorCollection\bin\Debug\ErrorCollection.pdb
+C:\Users\Robert\Dropbox\OOP2_RobertKelly\ICAPRG527A\ChocoMambo\ErrorCollection\ErrorCollection\obj\Debug\ErrorCollection.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Dropbox\OOP2_RobertKelly\ICAPRG527A\ChocoMambo\ErrorCollection\ErrorCollection\obj\Debug\ErrorCollection.dll
+C:\Users\Robert\Dropbox\OOP2_RobertKelly\ICAPRG527A\ChocoMambo\ErrorCollection\ErrorCollection\obj\Debug\ErrorCollection.pdb

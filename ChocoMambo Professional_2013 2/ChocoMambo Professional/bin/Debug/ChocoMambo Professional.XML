@@ -1,0 +1,1660 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChocoMambo Professional</name>
+    </assembly>
+    <members>
+        <member name="M:ChocoMambo_Professional.Branch.#ctor">
+            <summary>
+            Constructor for the new branch
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Branch.#ctor(System.Int64)">
+            <summary>
+            Constructor for the existing branch
+            </summary>
+            <param name="pLongID"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.Branch.loadDataSet">
+            <summary>
+            Pre-Condition:  true
+            Post-Condition: The dataset will have the tblBranch loaded.
+            Description:    This method will load the dataset with records from the branch table. 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Branch.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will assign the field values to its' respective properties
+            Description:    This method will assign the field values to its' respective properties.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Branch.saveData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will save the data to the database.
+            Description:    This method will save the data to the database whether its' new or updated record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Branch.addNewRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will add a new record in the dataset.
+            Description:    This method will add a new record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Branch.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Branch.delete(System.Int64)">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will delete the selected record in the data set.
+            Description:    This method will delete the selected record in the dataset.
+            </summary>
+            <param name="pLongPKID"></param>
+        </member>
+        <member name="P:ChocoMambo_Professional.Branch.BranchOffice">
+            <summary>
+            Creating Properties to be used manipulate data to the database
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Customer.#ctor">
+            <summary>
+            Constructor for the new customer
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Customer.#ctor(System.Int64)">
+            <summary>
+            Constructor for the existing customer
+            </summary>
+            <param name="pLongID"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.Customer.loadDataSet">
+            <summary>
+            Pre-Condition:  true
+            Post-Condition: The dataset will have the tblCustomer loaded.
+            Description:    This method will load the dataset with records from the Customers table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Customer.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will assign the field values to its' respective properties
+            Description:    This method will assign the field values to its' respective properties.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Customer.getEmployees">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will return the qryEmployeeActive
+            Description:    This method will return the qryEmployeeActive to be used as a data source for a combo box.
+            </summary>
+            <returns>DataTable qryEmployeeActive</returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.Customer.saveData">
+            <summary>
+             Pre-condition:  true
+            Post-condition: Will save the data to the database.
+            Description:    This method will save the data to the database whether its' new or updated record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Customer.addNewRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will add a new record in the dataset.
+            Description:    This method will add a new record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Customer.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo_Professional.Customer.EmployeeID">
+            <summary>
+            Creating Properties to be used manipulate data to the database
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Employee.#ctor">
+            <summary>
+            Constructor for the new Employee 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Employee.#ctor(System.Int64)">
+            <summary>
+            Constructor for the exisiting Employee
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Employee.loadDataSet">
+            <summary>
+             Pre-Condition:  true
+            Post-Condition: The dataset will have the tblEmployees loaded.
+            Description:    This method will load the dataset with records from the Employee table. 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Employee.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will assign the field values to its' respective properties
+            Description:    This method will assign the field values to its' respective properties.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Employee.saveData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will save the data to the database.
+            Description:    This method will save the data to the database whether its' new or updated record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Employee.addNewRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will add a new record in the dataset.
+            Description:    This method will add a new record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Employee.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo_Professional.Employee.FirstName">
+            <summary>
+            Creating properties to manipulate the database 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmBranch.#ctor">
+            <summary>
+            Create a new Branch record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmBranch.#ctor(System.Int64,System.Boolean)">
+            <summary>
+            Load the Exisitng Branch record by getting the Primary Key 
+            Pass a boolean to determine is the User Permission is read only for later use
+            </summary>
+            <param name="pLongID"></param>
+            <param name="pBlnReadOnly"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmBranch.displayRecord">
+            <summary>
+            Display the current Record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmBranch.checkIfTextBoxFieldsAreEmpty(System.Windows.Forms.TextBox)">
+            <summary>
+            pass the text fields to this method to determine if the text fields are empty
+            </summary>
+            <param name="pTxtBranchOffice"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmBranch.isClear(System.Windows.Forms.TextBox)">
+            <summary>
+            determine if the text field(s) are emtpy 
+            </summary>
+            <param name="ptxtFields"></param>
+            <returns> return a boolean value to see if the text field(s) are blank return it to be used in the method above</returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmBranch.AssignData">
+            <summary>
+            Assign the class properties to the text field values 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmBranch.checkIfRecordExists">
+            <summary>
+            check to see if the record exisits
+            </summary>
+            <returns> return a boolean if the record exisit of not </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmBranch.organizeFormForReadOnly">
+            <summary>
+            Organize the form when the Users permission is read only or not read only.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo_Professional.FrmBranch.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmBranch.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmBranch.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmCustomer.#ctor">
+            <summary>
+            Create a new Customer 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmCustomer.#ctor(System.Int64,System.Boolean)">
+            <summary>
+            Load an exisiting Customer by getting the Primary key
+            Pass a boolean to determine is the User Permission is read only for later use
+            </summary>
+            <param name="pLongID"></param>
+            <param name="pBlnReadOnly"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmCustomer.PopulateEmployeeComboBox">
+            <summary>
+            Populate the combo box to show the employee but value the EmployeeID
+            Set the selected index to minus one so that the combo box does not select anything
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmCustomer.displayRecord">
+            <summary>
+            Display the current Record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmCustomer.checkIfTextBoxFieldsAreEmpty(System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox)">
+            <summary>
+            pass the text fields to this method to determine if the text fields are empty
+            </summary>
+            <param name="pTxtCustomerName"></param>
+            <param name="pTxtPhone"></param>
+            <param name="pTxtAddress"></param>
+            <param name="pTxtPostCode"></param>
+            <param name="pTxtSuburb"></param>
+            <param name="pTxtState"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmCustomer.isClear(System.Windows.Forms.TextBox)">
+            <summary>
+            determine if the text field(s) are emtpy 
+            </summary>
+            <param name="ptxtFields"></param>
+            <returns> return a boolean value to see if the text field(s) are blank return it to be used in the method above </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmCustomer.AssignData">
+            <summary>
+            Assign the class properties to the text field values 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmCustomer.validateTextFieldsToNumbersOnly(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            pass the current key press event to this method to validate that field to only allow number and back space inputs
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmCustomer.checkIfRecordExists">
+            <summary>
+            check to see if the record exisits
+            </summary>
+            <returns> return a boolean if the record exisit of not </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmCustomer.organizeMenuStripItems">
+            <summary>
+            Organize the form when the Users permission is read only or not read only.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo_Professional.FrmCustomer.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmCustomer.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmCustomer.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmEmployee.#ctor">
+            <summary>
+            Create a new Employee
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmEmployee.#ctor(System.Int64,System.Boolean)">
+            <summary>
+            load the current Employee Record by getting the Primary key
+            Pass a boolean to determine is the User Permission is read only for later use
+            </summary>
+            <param name="pLongID"></param>
+            <param name="pBlnReadOnly"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmEmployee.displayRecord">
+            <summary>
+            Display the current Record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmEmployee.checkIfTextBoxFieldsAreEmpty(System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox)">
+            <summary>
+            pass the text fields to this method to determine if the text fields are empty
+            </summary>
+            <param name="pTxtFirstName"></param>
+            <param name="pTxtLastName"></param>
+            <param name="pTxtPhone"></param>
+            <param name="pTxtAddress"></param>
+            <param name="pTxtPostCode"></param>
+            <param name="pTxtSuburb"></param>
+            <param name="pTxtState"></param>
+            <param name="pTxtSalary"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmEmployee.isClear(System.Windows.Forms.TextBox)">
+            <summary>
+            determine if the text field(s) are emtpy 
+            </summary>
+            <param name="ptxtFields"></param>
+            <returns> return a boolean value to see if the text field(s) are blank return it to be used in the method above </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmEmployee.AssignData">
+            <summary>
+            Assign the class properties to the text field values 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmEmployee.validateTextFieldsToNumbersOnly(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            pass the current key press event to this method to validate that field to only allow number and back space inputs
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmEmployee.checkIfRecordExists">
+            <summary>
+             check to see if the record exisits
+            </summary>
+            <returns> return a boolean if the record exisit of not </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmEmployee.organizeFormForReadOnly">
+            <summary>
+            Organize the form when the Users permission is read only or not read only.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo_Professional.FrmEmployee.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmEmployee.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmEmployee.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmLogin.#ctor">
+            <summary>
+            Constructor for frmLogin
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmLogin.#ctor(ChocoMambo_Professional.FrmParent)">
+            <summary>
+            Constructor for frmLogin to open it from the parent form
+            </summary>
+            <param name="frm"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmLogin.getAccessRightsHashTable">
+            <summary>
+            method for the hash table 
+            read from the employee forms table to determine the access rights by grabbing the
+            employee ID and to see what form they can use by selecting the form ID
+            and return the value for other methods to use it
+            </summary>
+            <returns> HashTable </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmLogin.allowLogin">
+            <summary>
+            allow login to see if the user can login with the right 
+            login details by reading from employee table 
+            also if the user is active aswell as having the login in details they can succesfully
+            login
+            and return the value of the boolean
+            </summary>
+            <returns> blnReturnValue </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmLogin.ClearFields(System.Windows.Forms.TextBox[])">
+            <summary>
+            clear all the fields assigned in the text box array
+            </summary>
+            <param name="pTxtArray"></param>
+        </member>
+        <member name="F:ChocoMambo_Professional.FrmLogin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmLogin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmLogin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmOrder.#ctor">
+            <summary>
+            Create a new Order
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmOrder.#ctor(System.Int64,System.Boolean)">
+            <summary>
+            load the current Order by getting the Primary key
+            Pass a boolean to determine is the User Permission is read only for later use
+            </summary>
+            <param name="pLongID"></param>
+            <param name="pBlnReadOnly"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmOrder.displayRecord">
+            <summary>
+            display the current record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmOrder.populateCustomerCombo">
+            <summary>
+            populate the customer combo box and display the customer name but value the CustomerID
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmOrder.populateProductCombo">
+            <summary>
+            populate the Product combo box and display the second column[1] but value the first column[0]
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmOrder.emptyProductControls">
+            <summary>
+            Empty the product controls
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmOrder.calculateGrandTotal">
+            <summary>
+            Calculate the grand total
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmOrder.assignData">
+            <summary>
+            Assign the class properties to the text field values 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmOrder.validateTextFieldsToNumbersOnly(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            pass the current key press event to this method to validate that field to only allow number and back space inputs
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmOrder.organizeFormForReadOnly">
+            <summary>
+            Organize the form when the Users permission is read only or not read only.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo_Professional.FrmOrder.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmOrder.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmOrder.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.#ctor">
+            <summary>
+            Construtor for frmParent
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.CheckAccessRights(System.String)">
+            <summary>
+            check the access rights 
+            that was called in the frmLogin 
+            it was passed "Parent" string to match the paremeter value
+            that is to determine the permission rights in this form
+            </summary>
+            <param name="pStrFormName"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.DisplayUser(System.String)">
+            <summary>
+            display the username 
+            the paremter value was assigned to in the frmLogin
+            </summary>
+            <param name="pStrUsername"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.OrganizeMenuStrip(System.Boolean)">
+            <summary>
+            ennable the menu strip 
+            the value was passed from the frmLogin through a boolean 
+            </summary>
+            <param name="pBlnEnableMenuStrip"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.closeAllActiveForms">
+            <summary>
+             close all the forms that are in this mdi 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.mnuEmployee_Click(System.Object,System.EventArgs)">
+            <summary>
+            Create new Employee
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.mnuViewEmployee_Click(System.Object,System.EventArgs)">
+            <summary>
+            Load the Employee's to view by passing the query from the table, a datatable to place the 
+            query in 
+            and a form index 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.mnuViewCustomer_Click(System.Object,System.EventArgs)">
+            <summary>
+            Load the Customer's to view by passing the query from the table, a datatable to place the 
+            query in 
+            and a form index 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.mnuViewOrder_Click(System.Object,System.EventArgs)">
+            <summary>
+            Load the Order's to view by passing the query from the table, a datatable to place the 
+            query in 
+            and a form index 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.mnuViewProduct_Click(System.Object,System.EventArgs)">
+            <summary>
+            Load the Products's to view by passing the query from the table, a datatable to place the 
+            query in 
+            and a form index 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.mnuViewSupplier_Click(System.Object,System.EventArgs)">
+            <summary>
+            Load the Supplier's to view by passing the query from the table, a datatable to place the 
+            query in 
+            and a form index 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.mnuViewSupplierPurchase_Click(System.Object,System.EventArgs)">
+            <summary>
+            Load the Supplier Purchases's to view by passing the query from the table, a datatable to place the 
+            query in 
+            and a form index 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.mnuViewRawIngredient_Click(System.Object,System.EventArgs)">
+            <summary>
+            Load the RawIngredient's to view by passing the query from the table, a datatable to place the 
+            query in 
+            and a form index 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.mnuViewBranch_Click(System.Object,System.EventArgs)">
+            <summary>
+            Load the Branch's to view by passing the query from the table, a datatable to place the 
+            query in 
+            and a form index 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.FrmParent_Load(System.Object,System.EventArgs)">
+            <summary>
+            load the login form 
+            and display it in the mdi
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.mnuLogout_Click(System.Object,System.EventArgs)">
+            <summary>
+            load the login form again
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.mnuPermissions_Click(System.Object,System.EventArgs)">
+            <summary>
+            load the permissions Query and place it into a datatable 
+            then open the form in the mdi
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:ChocoMambo_Professional.FrmParent.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmParent.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo_Professional.FrmParent.AccessRights">
+            <summary>
+            Create a propterty for the hashtable and call it access rights
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmPermissions.#ctor(System.String,System.Data.DataTable)">
+            <summary>
+            load the query that has been passed to the first parameter value
+            and place it in a datatable
+            </summary>
+            <param name="pStrQuery"></param>
+            <param name="pDtb"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmPermissions.displayRecord">
+            <summary>
+            display the current record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmPermissions.populateEmployeeCombo">
+            <summary>
+            Populate employee combo box 
+            set the datasource of the combo box from a method 
+            that gets all the employees
+            display only the employee name 
+            make the value memeber the ID
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmPermissions.populateFormsCombo">
+            <summary>
+            Populate forms combo box 
+            set the datasource of the combo box from a method 
+            that gets all the forms
+            display only the forms name 
+            make the value memeber the ID
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmPermissions.populateAccessTypesCombo">
+            <summary>
+            Populate access types combo box 
+            set the datasource of the combo box from a method 
+            that gets all the access types
+            display only the access type
+            make the value memeber the ID
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmPermissions.assignData">
+            <summary>
+            Assign the class properties to the text field values 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmPermissions.GenerateAccessLevelCode(System.String,System.String,System.String)">
+            <summary>
+            Generate the access level code 
+            pass the combo box values to the paremeter values 
+            and then get the text box to equal the strings 
+            </summary>
+            <param name="pStrEmployee"></param>
+            <param name="pStrFormIndex"></param>
+            <param name="pStrAccess"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmPermissions.refreshTable">
+            <summary>
+            Rrefresh the table by crating a datatable by grabbing the table data from the acces 
+            Databse and binding the datatable to the datagrid source
+            </summary>
+        </member>
+        <member name="F:ChocoMambo_Professional.FrmPermissions.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmPermissions.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmPermissions.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmProduct.#ctor">
+            <summary>
+            Create a new Product
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmProduct.#ctor(System.Int64,System.Boolean)">
+            <summary>
+            load the current product record by getting the Primary key
+            Pass a boolean to determine is the User Permission is read only for later use
+            
+            </summary>
+            <param name="pLongID"></param>
+            <param name="pBlnReadOnly"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmProduct.displayRecord">
+            <summary>
+            display the current record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmProduct.checkIfTextBoxFieldsAreEmpty(System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox)">
+            <summary>
+            pass the text fields to this method to determine if the text fields are empty
+            </summary>
+            <param name="pTxtProductName"></param>
+            <param name="pTxtProductCode"></param>
+            <param name="pTxtQuantity"></param>
+            <param name="pTxtPrice"></param>
+            <param name="pTxtComment"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmProduct.isClear(System.Windows.Forms.TextBox)">
+            <summary>
+            determine if the text field(s) are emtpy
+            </summary>
+            <param name="ptxtFields"></param>
+            <returns> return a boolean value to see if the text field(s) are blank return it to be used in the method above </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmProduct.AssignData">
+            <summary>
+            Assign the class properties to the text field values 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmProduct.validateTextFieldsToNumbersOnly(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            pass the current key press event to this method to validate that field to only allow number and back space inputs
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmProduct.checkIfRecordExists">
+            <summary>
+            check to see if the record exisits
+            </summary>
+            <returns> return a boolean if the record exisit of not </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmProduct.organizeFormForReadOnly">
+            <summary>
+            Organize the form when the Users permission is read only or not read only.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo_Professional.FrmProduct.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmProduct.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmProduct.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmRawIngredients.#ctor">
+            <summary>
+            Create a new Raw Ingredient
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmRawIngredients.#ctor(System.Int64,System.Boolean)">
+            <summary>
+            Load an Raw Ingredient record by getting the Primary key
+            Pass a boolean to determine is the User Permission is read only for later use
+            </summary>
+            <param name="pLongID"></param>
+            <param name="pBlnReadOnly"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmRawIngredients.displayRecord">
+            <summary>
+            display the current record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmRawIngredients.checkIfTextBoxFieldsAreEmpty(System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox)">
+            <summary>
+            pass the text fields to this method to determine if the text fields are empty
+            </summary>
+            <param name="pTxtIngredientName"></param>
+            <param name="pTxtIngredientCode"></param>
+            <param name="pTxtPrice"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmRawIngredients.isClear(System.Windows.Forms.TextBox)">
+            <summary>
+            determine if the text field(s) are emtpy 
+            </summary>
+            <param name="ptxtFields"></param>
+            <returns> return a boolean value to see if the text field(s) are blank return it to be used in the method above </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmRawIngredients.AssignData">
+            <summary>
+            Assign the class properties to the text field values 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmRawIngredients.validateTextFieldsToNumbersOnly(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            pass the current key press event to this method to validate that field to only allow number and back space inputs
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmRawIngredients.checkIfRecordExists">
+            <summary>
+            check to see if the record exisits
+            </summary>
+            <returns> return a boolean if the record exisit of not </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmRawIngredients.organizeFormForReadOnly">
+            <summary>
+            Organize the form when the Users permission is read only or not read only.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo_Professional.FrmRawIngredients.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmRawIngredients.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmRawIngredients.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplier.#ctor">
+            <summary>
+            Create a new supplier
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplier.#ctor(System.Int64,System.Boolean)">
+            <summary>
+            Load an exisiting Supplier by getting the Primary key
+            Pass a boolean to determine is the User Permission is read only for later use
+            </summary>
+            <param name="pLongID"></param>
+            <param name="pBlnReadOnly"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplier.displayRecord">
+            <summary>
+            display the current record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplier.checkIfTextBoxFieldsAreEmpty(System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox,System.Windows.Forms.TextBox)">
+            <summary>
+            pass the text fields to this method to determine if the text fields are empty
+            </summary>
+            <param name="pTxtSupplierName"></param>
+            <param name="pTxtPhone"></param>
+            <param name="pTxtAddress"></param>
+            <param name="pTxtPostCode"></param>
+            <param name="pTxtSuburb"></param>
+            <param name="pTxtState"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplier.isClear(System.Windows.Forms.TextBox)">
+            <summary>
+            determine if the text field(s) are emtpy
+            </summary>
+            <param name="ptxtFields"></param>
+            <returns> return a boolean value to see if the text field(s) are blank return it to be used in the method above </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplier.clearFields">
+            <summary>
+            Clear the fields
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplier.AssignData">
+            <summary>
+            Assign the class properties to the text field values
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplier.validateTextFieldsToNumbersOnly(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            pass the current key press event to this method to validate that field to only allow number and back space inputs
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplier.checkIfRecordExists">
+            <summary>
+            check to see if the record exisits
+            </summary>
+            <returns> return a boolean if the record exisit of not </returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplier.organizeFormForReadOnly">
+            <summary>
+            Organize the form when the Users permission is read only or not read only.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo_Professional.FrmSupplier.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplier.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplier.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplierPurchase.#ctor">
+            <summary>
+            Create a new supplier Purchase 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplierPurchase.#ctor(System.Int64,System.Boolean)">
+            <summary>
+             load the current Purchase by getting the Primary key
+            Pass a boolean to determine is the User Permission is read only for later use
+            </summary>
+            <param name="pLongID"></param>
+            <param name="pBlnReadOnly"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplierPurchase.displayRecord">
+            <summary>
+            display the current record
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplierPurchase.populateSupplierCombo">
+            <summary>
+            populate the supplier combo box and display the suuplier name but value the SupplierID
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplierPurchase.populateBranchCombo">
+            <summary>
+            populate the branch combo box and display the branch office but value the BranchID
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplierPurchase.populateRawIngredientsCombo">
+            <summary>
+            populate the raw ingredient combo box and display the second column[1] but value the first column[0]
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplierPurchase.emptyRawIngredientControls">
+            <summary>
+            empty the raw ingredients controls 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplierPurchase.assignData">
+            <summary>
+            Assign the class properties to the text field values
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplierPurchase.validateTextFieldsToNumbersOnly(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            pass the current key press event to this method to validate that field to only allow number and back space inputs
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplierPurchase.organizeFormForReadOnly">
+            <summary>
+            Organize the form when the Users permission is read only or not read only.
+            </summary>
+        </member>
+        <member name="F:ChocoMambo_Professional.FrmSupplierPurchase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplierPurchase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmSupplierPurchase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmView.#ctor">
+            <summary>
+            Constructor for FrmView
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmView.#ctor(System.String,System.Data.DataTable,System.Int32)">
+            <summary>
+            Constructor for FrmView 
+            The paremeter value is the current query passed through from the parent
+            then is placed into a table 
+            and then the form index is value is passed
+            </summary>
+            <param name="pStrQuery"></param>
+            <param name="pDtb"></param>
+            <param name="pInitFrmIndex"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmView.PopulateComboBox(System.String,System.Data.DataTable)">
+            <summary>
+            populate the combo box from the current query and then place it into a datatable
+            </summary>
+            <param name="pStrQuery"></param>
+            <param name="pDtb"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmView.CheckAccessRights(System.String)">
+            <summary>
+            check the access rights 
+            that was called in the frmLogin 
+            it was passed "Search" string to match the paremeter value
+            that is to determine the permission rights in this form
+            </summary>
+            <param name="pStrFormName"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmView.Search">
+            <summary>
+            search for the data row that eqauls the combo box value
+            and set the current row of the datagrid to the Primary key row
+            </summary>
+        </member>
+        <member name="F:ChocoMambo_Professional.FrmView.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmView.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.FrmView.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo_Professional.FrmView.AccessRights">
+            <summary>
+            Create a propterty for the hashtable and call it access rights
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Order.#ctor">
+            <summary>
+            Constructor for new Order
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Order.#ctor(System.Int64)">
+            <summary>
+            Constructor for existing Order
+            </summary>
+            <param name="pLongID">The record ID of the order that will be used in this class</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.Order.loadDataSet">
+            <summary>
+            Pre-Condition:  true
+            Post-Condition: The dataset will have the tblOrders loaded.
+            Description:    This method will load the dataset with records from the Orders table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Order.createRelationship">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will create the relationship between Orders and OrderLines tables.
+            Description:    This method will create the relationship in the dataset between tblOrders and tblOrderLines.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Order.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will assign the field values to its' respective properties
+            Description:    This method will assign the field values to its' respective properties.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Order.getCustomers">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will return the tblCustomers
+            Description:    This method will return the tblCustomers to be used as a data source for a combo box.
+            </summary>
+            <returns>DataTable tblCustomers</returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.Order.getProduct">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will return the tblProducts
+            Description:    This method will return the tblProducts to be used as a data source for a combo box.
+            </summary>
+            <returns>DataTable tblProducts</returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.Order.getOrderLinesTable">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will return the tblOrderLines
+            Description:    This method will return the tblOrderLines to be used as a data source for a combo box.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.Order.saveData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will save the data to the database.
+            Description:    This method will save the data to the database whether its' new or updated record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Order.addNewRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will add a new record in the dataset.
+            Description:    This method will add a new record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Order.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Order.delete(System.Int64)">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will delete the selected record in the data set.
+            Description:    This method will delete the selected record in the dataset.
+            </summary>
+            <param name="pLongPKID"></param>
+        </member>
+        <member name="P:ChocoMambo_Professional.Order.PKID">
+            <summary>
+            Property to return the Order primary key ID to be used to create new order lines.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo_Professional.Order.OrderLineClass">
+            <summary>
+            Property to return the OrderLine class to be able to call its' properties and methods.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.OrderLine.#ctor(System.Data.DataSet,System.Int64)">
+            <summary>
+            Constructor for orderlines
+            </summary>
+            <param name="pDataSet">The dataset that will store this child class tables.</param>
+            <param name="pLongID">The foreign key ID that will be used in this child class.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.OrderLine.loadDataSet">
+            <summary>
+            Pre-Condition:  true
+            Post-Condition: The dataset will have the qryOrderLineList loaded.
+            Description:    This method will load the dataset with records from the qryOrderLineList query using the foreign key
+                            OrderID as the filter criteria.
+                            qryOrderLineList is created in Access to retrieve selected fields including ProductName from the tblProducts
+                            to display descriptive details about the order line.
+                            Create a query in Access and use the following SQL:
+                            SELECT tblOrderLines.OrderLineID, tblProducts.ProductName, tblOrderLines.ProductPrice, tblOrderLines.OrderLineQty, tblOrderLines.OrderLineSubTotal, tblOrderLines.ProductID, tblOrderLines.OrderNumber
+                            FROM tblProducts INNER JOIN tblOrderLines ON tblProducts.ProductID = tblOrderLines.ProductID;
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.OrderLine.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will assign the field values to its' respective properties.
+            Description:    This method will assign the field values to its' respective properties.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.OrderLine.saveData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will save the data to the database.
+            Description:    This method will save the data to the database.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.OrderLine.addNewRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will add a new record in the dataset.
+            Description:    This method will add a new record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.OrderLine.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.OrderLine.deleteOrderLine(System.Int64)">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will delete the selected record in the data set.
+            Description:    This method will delete the selected record in the dataset.
+            </summary>
+            <param name="pLongPKID"></param>
+        </member>
+        <member name="P:ChocoMambo_Professional.OrderLine.PKID">
+            <summary>
+            Property to return the OrderLine primary key ID to be used to update existing order lines.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Permission.#ctor">
+            <summary>
+            Constructor for the new Permissions
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Permission.#ctor(System.Int64)">
+            <summary>
+            Constructor for the existing Permissions
+            </summary>
+            <param name="pLongID"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.Permission.loadDataSet">
+            <summary>
+            load the dataset from selecting everything from the table and by grabbing the ID 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Permission.assignFields">
+            <summary>
+            Make the properties equal to the database objects
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Permission.getEmployees">
+            <summary>
+            get all the data from the query
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.Permission.getForms">
+            <summary>
+            get all the data from the query
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.Permission.getAccessTypes">
+            <summary>
+            get all the data from the query
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.Permission.saveData">
+            <summary>
+            Either add a new record or update and save the ID and its row from the table 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Permission.addNewRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will add a new record in the dataset.
+            Description:    This method will add a new record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Permission.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Permission.delete(System.Int64)">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will delete the selected record in the data set.
+            Description:    This method will delete the selected record in the dataset.
+            </summary>
+            <param name="pLongPKID"></param>
+        </member>
+        <member name="P:ChocoMambo_Professional.Permission.EmployeeID">
+            <summary>
+            Creating Properties to be used manipulate data to the database
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Product.#ctor">
+            <summary>
+            Constructor for new Product
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Product.#ctor(System.Int64)">
+            <summary>
+            Constructor for existing product
+            </summary>
+            <param name="pLongID"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.Product.loadDataSet">
+            <summary>
+            Pre-Condition:  true
+            Post-Condition: The dataset will have the products loaded.
+            Description:    This method will load the dataset with records from the products table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Product.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will assign the field values to its' respective properties
+            Description:    This method will assign the field values to its' respective properties.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Product.saveData">
+            <summary>
+             Pre-condition:  true
+            Post-condition: Will save the data to the database.
+            Description:    This method will save the data to the database whether its' new or updated record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Product.addNewRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will add a new record in the dataset.
+            Description:    This method will add a new record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Product.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.RawIngredients.#ctor">
+            <summary>
+            Constructor for new raw ingredients 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.RawIngredients.#ctor(System.Int64)">
+            <summary>
+            Contructor for existing raw ingredients
+            </summary>
+            <param name="pLongID"></param>
+        </member>
+        <member name="M:ChocoMambo_Professional.RawIngredients.loadDataSet">
+            <summary>
+            Pre-Condition:  true
+            Post-Condition: The dataset will have the tblRawIngredients loaded.
+            Description:    This method will load the dataset with records from the RawIngredients table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.RawIngredients.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will assign the field values to its' respective properties
+            Description:    This method will assign the field values to its' respective properties.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.RawIngredients.saveData">
+            <summary>
+             Pre-condition:  true
+            Post-condition: Will save the data to the database.
+            Description:    This method will save the data to the database whether its' new or updated record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.RawIngredients.addNewRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will add a new record in the dataset.
+            Description:    This method will add a new record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.RawIngredients.updateRecord">
+            <summary>
+             Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Supplier.#ctor">
+            <summary>
+            Constructor for the new supplier 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Supplier.#ctor(System.Int64)">
+            <summary>
+            Constructor for the exisiting supplier
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Supplier.loadDataSet">
+            <summary>
+            Pre-Condition:  true
+            Post-Condition: The dataset will have the tblSupplier loaded.
+            Description:    This method will load the dataset with records from the Suppliers table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Supplier.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will assign the field values to its' respective properties
+            Description:    This method will assign the field values to its' respective properties.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Supplier.saveData">
+            <summary>
+             Pre-condition:  true
+            Post-condition: Will save the data to the database.
+            Description:    This method will save the data to the database whether its' new or updated record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Supplier.addNewRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will add a new record in the dataset.
+            Description:    This method will add a new record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.Supplier.updateRecord">
+            <summary>
+             Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.#ctor">
+            <summary>
+            Constructor for new supplier purchase
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.#ctor(System.Int64)">
+            <summary>
+            Constructor for existing supplier purchase
+            </summary>
+            <param name="pLongID">The record ID of the order that will be used in this class</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.loadDataSet">
+            <summary>
+            Pre-Condition:  true
+            Post-Condition: The dataset will have the tblSupplierPurchase loaded.
+            Description:    This method will load the dataset with records from the SupplierPurchases table.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.createRelationship">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will create the relationship between SupplierPurchase and SupplierPurchaseLines tables.
+            Description:    This method will create the relationship in the dataset between tblSupplierPurchase and tblSupplierPurchaseLines.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will assign the field values to its' respective properties
+            Description:    This method will assign the field values to its' respective properties.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.getBranch">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will return the tblBranch
+            Description:    This method will return the tblBranch to be used as a data source for a combo box.
+            </summary>
+            <returns>DataTable tblBranch</returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.getSupplier">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will return the tblSupplier
+            Description:    This method will return the tblSupplier to be used as a data source for a combo box.
+            </summary>
+            <returns>DataTable tblSupplier</returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.getRawIngredients">
+            <summary>
+             Pre-condition:  true
+            Post-condition: Will return the tblRawIngredients
+            Description:    This method will return the tblRawIngredients to be used as a data source for a combo box.
+            </summary>
+            <returns>DataTable tblRawIngredients</returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.getSupplierLinesTable">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will return the tblSupplierLinesTable
+            Description:    This method will return the tblSupplierLinesTable to be used as a data source for a combo box.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.saveData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will save the data to the database.
+            Description:    This method will save the data to the database whether its' new or updated record.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.addNewRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will add a new record in the dataset.
+            Description:    This method will add a new record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchase.delete(System.Int64)">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will delete the selected record in the data set.
+            Description:    This method will delete the selected record in the dataset.
+            </summary>
+            <param name="pLongPKID"></param>
+        </member>
+        <member name="P:ChocoMambo_Professional.SupplierPurchase.PKID">
+            <summary>
+            Property to return the Order primary key ID to be used to create new supplier purchase lines.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo_Professional.SupplierPurchase.SupplierPurchaseLineClass">
+            <summary>
+            Property to return the supplier purchase class to be able to call its' properties and methods.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchaseLine.#ctor(System.Data.DataSet,System.Int64)">
+            <summary>
+            Constructor for SupplierPurchaseLine
+            </summary>
+            <param name="pDataSet">The dataset that will store this child class tables.</param>
+            <param name="pLongID">The foreign key ID that will be used in this child class.</param>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchaseLine.loadDataSet">
+            <summary>
+            Pre-Condition:  true
+            Post-Condition: The dataset will have the qrySupplierLineList loaded.
+            Description:    This method will load the dataset with records from the qrySupplierLineList query using the foreign key
+                            OrderID as the filter criteria.
+                            qrySupplierLineList is created in Access to retrieve selected fields 
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchaseLine.assignFields">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will assign the field values to its' respective properties.
+            Description:    This method will assign the field values to its' respective properties.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchaseLine.saveData">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will save the data to the database.
+            Description:    This method will save the data to the database.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchaseLine.addNewRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will add a new record in the dataset.
+            Description:    This method will add a new record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchaseLine.updateRecord">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will update the selected record in the dataset.
+            Description:    This method will update the selected record in the dataset.
+            </summary>
+        </member>
+        <member name="M:ChocoMambo_Professional.SupplierPurchaseLine.deleteSupplierLine(System.Int64)">
+            <summary>
+            Pre-condition:  true
+            Post-condition: Will delete the selected record in the databaset.
+            Description:    This method will delete the selected record in the dataset.
+            </summary>
+            <param name="pLongPKID"></param>
+        </member>
+        <member name="P:ChocoMambo_Professional.SupplierPurchaseLine.PKID">
+            <summary>
+            Property to return the SupplierPurchaseLine primary key ID to be used to update existing SupplierPurchaseLines.
+            </summary>
+        </member>
+        <member name="T:ChocoMambo_Professional.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo_Professional.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ChocoMambo_Professional.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

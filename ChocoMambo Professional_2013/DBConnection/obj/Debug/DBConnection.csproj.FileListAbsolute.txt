@@ -1,0 +1,23 @@
+c:\users\michael\documents\visual studio 2013\Projects\sampleDBConnection\DBConnection\bin\Debug\DBConnection.dll
+c:\users\michael\documents\visual studio 2013\Projects\sampleDBConnection\DBConnection\bin\Debug\DBConnection.pdb
+c:\users\michael\documents\visual studio 2013\Projects\sampleDBConnection\DBConnection\obj\Debug\DBConnection.csprojResolveAssemblyReference.cache
+c:\users\michael\documents\visual studio 2013\Projects\sampleDBConnection\DBConnection\obj\Debug\DBConnection.dll
+c:\users\michael\documents\visual studio 2013\Projects\sampleDBConnection\DBConnection\obj\Debug\DBConnection.pdb
+D:\ICAPRG527A\ChocoMambo_2013\DBConnection\bin\Debug\DBConnection.XML
+D:\ICAPRG527A\ChocoMambo_2013\DBConnection\bin\Debug\DBConnection.dll
+D:\ICAPRG527A\ChocoMambo_2013\DBConnection\bin\Debug\DBConnection.pdb
+D:\ICAPRG527A\ChocoMambo_2013\DBConnection\obj\Debug\DBConnection.csprojResolveAssemblyReference.cache
+D:\ICAPRG527A\ChocoMambo_2013\DBConnection\obj\Debug\DBConnection.dll
+D:\ICAPRG527A\ChocoMambo_2013\DBConnection\obj\Debug\DBConnection.pdb
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\DBConnection\bin\Debug\DBConnection.XML
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\DBConnection\bin\Debug\DBConnection.dll
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\DBConnection\bin\Debug\DBConnection.pdb
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\DBConnection\obj\Debug\DBConnection.csprojResolveAssemblyReference.cache
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\DBConnection\obj\Debug\DBConnection.dll
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\DBConnection\obj\Debug\DBConnection.pdb
+D:\ChocoMambo Professional\ChocoMambo Professional\DBConnection\bin\Debug\DBConnection.XML
+D:\ChocoMambo Professional\ChocoMambo Professional\DBConnection\bin\Debug\DBConnection.dll
+D:\ChocoMambo Professional\ChocoMambo Professional\DBConnection\bin\Debug\DBConnection.pdb
+D:\ChocoMambo Professional\ChocoMambo Professional\DBConnection\obj\Debug\DBConnection.csprojResolveAssemblyReference.cache
+D:\ChocoMambo Professional\ChocoMambo Professional\DBConnection\obj\Debug\DBConnection.dll
+D:\ChocoMambo Professional\ChocoMambo Professional\DBConnection\obj\Debug\DBConnection.pdb

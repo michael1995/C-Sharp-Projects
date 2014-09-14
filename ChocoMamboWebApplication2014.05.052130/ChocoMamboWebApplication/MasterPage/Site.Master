@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ChocoMamboWebApplication.MasterPage.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="../Styles/CSS_Master.css" />
+    <script type="text/javascript" src="Scripts/jquery-1.10.2.js"> </script>
+    <script type="text/javascript">
+        function mainmenu() {
+            $(" #navBar ul ").css({ display: "none" }); 
+
+            $(" #navBar li").hover(function () {
+                $(this).find('ul:first').css({ visibility: "visible", display: "none" }).show(400);
+            }
+            , function () {
+                $(this).find('ul:first').css({ visibility: "hidden" });
+            });
+        }
+
+        $(document).ready(function () {
+            mainmenu();
+        });
+        $(function () {
+            headerHeight = $('#banner').height();
+            footerHeight = $('#footer').height();
+            windowHeight = $(window).height();
+            $('#contentArea').css('min-height', windowHeight - headerHeight - footerHeight*2);
+        });
+   </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+      <div id="banner">
+            <div id="headerImage">
+           <div id="navigation">
+             <ul id="navBar">
+                <li><a href="Home.aspx">Home</a></li>
+                <li><a href="CustomerList.aspx">Customer</a></li>
+                <li><a href="EmployeeList.aspx">Employee</a></li>
+                <li><a href="OrderList.aspx">Order</a></li>
+                <li><a href="SaleList.aspx">Sale</a></li>
+                <li><a href="#">Stock</a>
+                    <ul>
+                          <li><a href="ProductList.aspx">Product</a></li>
+                          <li><a href="RawIngredientList.aspx">Raw Ingredient</a></li>
+                    </ul>
+                </li>
+                <li><a href="SupplierList.aspx">Supplier</a></li>
+             </ul>
+        </div>
+            </div>
+          <div id="hyperlinks">
+                 <a id="logout" href="Login.aspx">Logout</a>
+                 <a id="permissions" href="Permissions.aspx">Permissions</a>
+         </div>
+        </div>
+    <div id="wrapper">
+        
+         <div id="contentArea">
+
+             <asp:ContentPlaceHolder ID="cph_Master" runat="server">
+             </asp:ContentPlaceHolder>
+
+        </div>
+    </div>
+         <div id="footer">
+
+        </div>
+    </form>
+</body>
+</html>

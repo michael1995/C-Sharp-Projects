@@ -1,0 +1,30 @@
+﻿body {
+}
+
+.Grid {
+    margin: auto;
+    width: 1080px;
+}
+
+#buttonMenu {
+    width: inherit;
+}
+
+
+.table{
+   
+    
+}
+#Table{
+}
+.tableFirstColumn{
+    padding:10px;
+    vertical-align:top;
+   
+}
+#txt_ShippingAddress{
+    resize:none;
+}
+.SalesTable{
+    width:1080px;
+}

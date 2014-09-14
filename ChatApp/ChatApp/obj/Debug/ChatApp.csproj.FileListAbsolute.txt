@@ -1,0 +1,12 @@
+C:\Users\Michael\Desktop\ChatApp\ChatApp\bin\Debug\ChatApp.exe.config
+C:\Users\Michael\Desktop\ChatApp\ChatApp\bin\Debug\ChatApp.exe
+C:\Users\Michael\Desktop\ChatApp\ChatApp\bin\Debug\ChatApp.pdb
+C:\Users\Michael\Desktop\ChatApp\ChatApp\obj\Debug\ChatApp.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\ChatApp\ChatApp\obj\Debug\ChatApp.Form1.resources
+C:\Users\Michael\Desktop\ChatApp\ChatApp\obj\Debug\ChatApp.Properties.Resources.resources
+C:\Users\Michael\Desktop\ChatApp\ChatApp\obj\Debug\ChatApp.csproj.GenerateResource.Cache
+C:\Users\Michael\Desktop\ChatApp\ChatApp\obj\Debug\ChatApp.exe
+C:\Users\Michael\Desktop\ChatApp\ChatApp\obj\Debug\ChatApp.pdb
+D:\ICAICT501A\Sub Activity Programs\ChatApp\ChatApp\bin\Debug\ChatApp.exe.config
+D:\ICAICT501A\Sub Activity Programs\ChatApp\ChatApp\obj\Debug\ChatApp.exe
+D:\ICAICT501A\Sub Activity Programs\ChatApp\ChatApp\obj\Debug\ChatApp.pdb

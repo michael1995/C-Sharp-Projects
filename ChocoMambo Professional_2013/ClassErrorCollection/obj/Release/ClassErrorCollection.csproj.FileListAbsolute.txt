@@ -1,0 +1,20 @@
+D:\ICAPRG527A\ChocoMambo_2013\ClassErrorCollection\bin\Release\ClassErrorCollection.dll
+D:\ICAPRG527A\ChocoMambo_2013\ClassErrorCollection\bin\Release\ClassErrorCollection.pdb
+D:\ICAPRG527A\ChocoMambo_2013\ClassErrorCollection\obj\Release\ClassErrorCollection.csprojResolveAssemblyReference.cache
+D:\ICAPRG527A\ChocoMambo_2013\ClassErrorCollection\obj\Release\ClassErrorCollection.dll
+D:\ICAPRG527A\ChocoMambo_2013\ClassErrorCollection\obj\Release\ClassErrorCollection.pdb
+D:\ICAPRG527A\ChocoMambo\ClassErrorCollection\bin\Release\ClassErrorCollection.dll
+D:\ICAPRG527A\ChocoMambo\ClassErrorCollection\bin\Release\ClassErrorCollection.pdb
+D:\ICAPRG527A\ChocoMambo\ClassErrorCollection\obj\Release\ClassErrorCollection.csprojResolveAssemblyReference.cache
+D:\ICAPRG527A\ChocoMambo\ClassErrorCollection\obj\Release\ClassErrorCollection.dll
+D:\ICAPRG527A\ChocoMambo\ClassErrorCollection\obj\Release\ClassErrorCollection.pdb
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\ClassErrorCollection\bin\Release\ClassErrorCollection.dll
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\ClassErrorCollection\bin\Release\ClassErrorCollection.pdb
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\ClassErrorCollection\obj\Release\ClassErrorCollection.csprojResolveAssemblyReference.cache
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\ClassErrorCollection\obj\Release\ClassErrorCollection.dll
+D:\ICAPRG527A\ChocoMambo - Program\ChocoMambo_2013\ClassErrorCollection\obj\Release\ClassErrorCollection.pdb
+D:\ChocoMambo Professional\ChocoMambo Professional\ClassErrorCollection\bin\Release\ClassErrorCollection.dll
+D:\ChocoMambo Professional\ChocoMambo Professional\ClassErrorCollection\bin\Release\ClassErrorCollection.pdb
+D:\ChocoMambo Professional\ChocoMambo Professional\ClassErrorCollection\obj\Release\ClassErrorCollection.csprojResolveAssemblyReference.cache
+D:\ChocoMambo Professional\ChocoMambo Professional\ClassErrorCollection\obj\Release\ClassErrorCollection.dll
+D:\ChocoMambo Professional\ChocoMambo Professional\ClassErrorCollection\obj\Release\ClassErrorCollection.pdb

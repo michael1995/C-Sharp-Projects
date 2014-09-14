@@ -1,0 +1,15 @@
+c:\users\michael\documents\visual studio 2010\Projects\ASPDemo\ASPDemo\bin\ASPDemo.dll
+c:\users\michael\documents\visual studio 2010\Projects\ASPDemo\ASPDemo\bin\ASPDemo.pdb
+c:\users\michael\documents\visual studio 2010\Projects\ASPDemo\ASPDemo\obj\Debug\ASPDemo.dll
+c:\users\michael\documents\visual studio 2010\Projects\ASPDemo\ASPDemo\obj\Debug\ASPDemo.pdb
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\ASPDemo\ASPDemo\bin\ASPDemo.dll.config
+C:\Users\Michael\Documents\Visual Studio 2010\Projects\ASPDemo\ASPDemo\obj\Debug\ASPDemo.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\ASPDemo\ASPDemo\bin\ASPDemo.dll.config
+C:\Users\Michael\Desktop\ASPDemo\ASPDemo\bin\ASPDemo.dll
+C:\Users\Michael\Desktop\ASPDemo\ASPDemo\bin\ASPDemo.pdb
+C:\Users\Michael\Desktop\ASPDemo\ASPDemo\bin\DBConnection.dll
+C:\Users\Michael\Desktop\ASPDemo\ASPDemo\bin\DBConnection.pdb
+C:\Users\Michael\Desktop\ASPDemo\ASPDemo\bin\DBConnection.xml
+C:\Users\Michael\Desktop\ASPDemo\ASPDemo\obj\Debug\ASPDemo.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\ASPDemo\ASPDemo\obj\Debug\ASPDemo.dll
+C:\Users\Michael\Desktop\ASPDemo\ASPDemo\obj\Debug\ASPDemo.pdb

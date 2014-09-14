@@ -1,0 +1,23 @@
+C:\Users\Robert\Dropbox\ChocoMambo\DBConnection\bin\Debug\DBConnection.dll
+C:\Users\Robert\Dropbox\ChocoMambo\DBConnection\bin\Debug\DBConnection.pdb
+C:\Users\Robert\Dropbox\ChocoMambo\DBConnection\bin\Debug\DBConnection.dll.CodeAnalysisLog.xml
+C:\Users\Robert\Dropbox\ChocoMambo\DBConnection\bin\Debug\DBConnection.dll.lastcodeanalysissucceeded
+C:\Users\Robert\Dropbox\ChocoMambo\DBConnection\bin\Debug\ErrorCollection.dll
+C:\Users\Robert\Dropbox\ChocoMambo\DBConnection\bin\Debug\ErrorCollection.pdb
+C:\Users\Robert\Dropbox\ChocoMambo\DBConnection\obj\Debug\DBConnection.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Dropbox\ChocoMambo\DBConnection\obj\Debug\DBConnection.dll
+C:\Users\Robert\Dropbox\ChocoMambo\DBConnection\obj\Debug\DBConnection.pdb
+C:\Users\Robert\Dropbox\OOP2_RobertKelly\ICAPRG527A\ChocoMambo\DBConnection\bin\Debug\DBConnection.dll
+C:\Users\Robert\Dropbox\OOP2_RobertKelly\ICAPRG527A\ChocoMambo\DBConnection\bin\Debug\DBConnection.pdb
+C:\Users\Robert\Dropbox\OOP2_RobertKelly\ICAPRG527A\ChocoMambo\DBConnection\bin\Debug\ErrorCollection.dll
+C:\Users\Robert\Dropbox\OOP2_RobertKelly\ICAPRG527A\ChocoMambo\DBConnection\bin\Debug\ErrorCollection.pdb
+C:\Users\Robert\Dropbox\OOP2_RobertKelly\ICAPRG527A\ChocoMambo\DBConnection\obj\Debug\DBConnection.csprojResolveAssemblyReference.cache
+C:\Users\Robert\Dropbox\OOP2_RobertKelly\ICAPRG527A\ChocoMambo\DBConnection\obj\Debug\DBConnection.dll
+C:\Users\Robert\Dropbox\OOP2_RobertKelly\ICAPRG527A\ChocoMambo\DBConnection\obj\Debug\DBConnection.pdb
+C:\Users\Robert\documents\visual studio 2013\Projects\ChocoMamboWebApplication\DBConnection\bin\Debug\DBConnection.dll
+C:\Users\Robert\documents\visual studio 2013\Projects\ChocoMamboWebApplication\DBConnection\bin\Debug\DBConnection.pdb
+C:\Users\Robert\documents\visual studio 2013\Projects\ChocoMamboWebApplication\DBConnection\bin\Debug\ErrorCollection.dll
+C:\Users\Robert\documents\visual studio 2013\Projects\ChocoMamboWebApplication\DBConnection\bin\Debug\ErrorCollection.pdb
+C:\Users\Robert\documents\visual studio 2013\Projects\ChocoMamboWebApplication\DBConnection\obj\Debug\DBConnection.csprojResolveAssemblyReference.cache
+C:\Users\Robert\documents\visual studio 2013\Projects\ChocoMamboWebApplication\DBConnection\obj\Debug\DBConnection.dll
+C:\Users\Robert\documents\visual studio 2013\Projects\ChocoMamboWebApplication\DBConnection\obj\Debug\DBConnection.pdb

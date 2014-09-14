@@ -1,0 +1,14 @@
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\bin\Debug\DragDropApplication.exe.config
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\bin\Debug\DragDropApplication.exe
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\bin\Debug\DragDropApplication.pdb
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\obj\Debug\DragDropApplication.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\obj\Debug\DragDropApplication.Form1.resources
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\obj\Debug\DragDropApplication.Properties.Resources.resources
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\obj\Debug\DragDropApplication.csproj.GenerateResource.Cache
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\obj\Debug\DragDropApplication.exe
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\obj\Debug\DragDropApplication.pdb
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\bin\Debug\Interop.WMPLib.dll
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\obj\Debug\Interop.WMPLib.dll
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Michael\Desktop\DragDropApplication\DragDropApplication\obj\Debug\DragDropApplication.csproj.ResolveComReference.cache

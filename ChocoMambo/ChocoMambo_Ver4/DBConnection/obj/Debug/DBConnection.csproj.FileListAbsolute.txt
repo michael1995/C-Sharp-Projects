@@ -1,0 +1,5 @@
+c:\users\michael\documents\visual studio 2013\Projects\sampleDBConnection\DBConnection\bin\Debug\DBConnection.dll
+c:\users\michael\documents\visual studio 2013\Projects\sampleDBConnection\DBConnection\bin\Debug\DBConnection.pdb
+c:\users\michael\documents\visual studio 2013\Projects\sampleDBConnection\DBConnection\obj\Debug\DBConnection.csprojResolveAssemblyReference.cache
+c:\users\michael\documents\visual studio 2013\Projects\sampleDBConnection\DBConnection\obj\Debug\DBConnection.dll
+c:\users\michael\documents\visual studio 2013\Projects\sampleDBConnection\DBConnection\obj\Debug\DBConnection.pdb
